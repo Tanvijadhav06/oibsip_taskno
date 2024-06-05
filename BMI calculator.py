@@ -1,6 +1,6 @@
 name=input("Enter your name: ")
 weight=int(input("enter your weight in kilograms: "))
-height=float(input("enter your weight in centimeters: "))
+height=float(input("enter your height in centimeters: "))
 BMI = weight / (height/100)**2 
 print(BMI)
 
